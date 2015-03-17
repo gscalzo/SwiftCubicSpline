@@ -1,10 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
 
-target 'SwiftCubicSpline', :exclusive => true do
+target 'SwiftCubicSplineExample', :exclusive => true do
   pod "SwiftCubicSpline", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'SwiftCubicSplineExampleTests', :exclusive => true do
   pod "SwiftCubicSpline", :path => "../"
 
   

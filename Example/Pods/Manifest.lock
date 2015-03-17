@@ -1,0 +1,17 @@
+PODS:
+  - SAMCubicSpline (0.1.1)
+  - SwiftCubicSpline (0.1.0):
+    - SAMCubicSpline (~> 0.1.1)
+
+DEPENDENCIES:
+  - SwiftCubicSpline (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCubicSpline:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SAMCubicSpline: 60dd7d3e8cfb35fc8c0ab9cb6a6383dbe43cc3b1
+  SwiftCubicSpline: b80669b8322c1d5554e60656e3fe232bc4677bde
+
+COCOAPODS: 0.36.0

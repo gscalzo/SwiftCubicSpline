@@ -1,30 +1,18 @@
-#
-# Be sure to run `pod lib lint SwiftCubicSpline.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SwiftCubicSpline"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftCubicSpline."
+  s.summary          = "Cubic Spline in Swift."
   s.description      = <<-DESC
-                       An optional longer description of SwiftCubicSpline
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       An simple cubic spline engine in Swift
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftCubicSpline"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/gscalzo/SwiftCubicSpline"
+  s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "giordano scalzo" => "giordano.scalzo@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftCubicSpline.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/gscalzo/SwiftCubicSpline.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/giordanoscalzo'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -32,7 +20,6 @@ Pod::Spec.new do |s|
     'SwiftCubicSpline' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation', 'CoreGraphics'
+  s.dependency 'SAMCubicSpline', '~> 0.1.1'
 end

@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4ACFF284012803A8A41C319 /* Pods_SwiftCubicSplineExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845EE35F41B92F880E957226 /* Pods_SwiftCubicSplineExampleTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B71A0C21A3FF5C90F4F1901A /* Pods_SwiftCubicSplineExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824989874BF7DE50CFD6B77 /* Pods_SwiftCubicSplineExample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EE41599D1AB878BC00130962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41599C1AB878BC00130962 /* AppDelegate.swift */; };
+		EE41599F1AB878BC00130962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41599E1AB878BC00130962 /* ViewController.swift */; };
+		EE4159A21AB878BC00130962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4159A01AB878BC00130962 /* Main.storyboard */; };
+		EE4159A41AB878BC00130962 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4159A31AB878BC00130962 /* Images.xcassets */; };
+		EE4159A71AB878BC00130962 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4159A51AB878BC00130962 /* LaunchScreen.xib */; };
+		EE4159B31AB878BC00130962 /* SwiftCubicSplineExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4159B21AB878BC00130962 /* SwiftCubicSplineExampleTests.swift */; };
+		EE4159C61AB8850F00130962 /* SwiftCubicSpline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EE4159C31AB8850F00130962 /* SwiftCubicSpline.podspec */; };
+		EE4159C71AB8850F00130962 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE4159C41AB8850F00130962 /* README.md */; };
+		EE4159C81AB8850F00130962 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EE4159C51AB8850F00130962 /* LICENSE */; };
+		EE4159CA1AB885F200130962 /* SplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4159C91AB885F200130962 /* SplineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4159AD1AB878BC00130962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE41598F1AB878BC00130962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4159961AB878BC00130962;
+			remoteInfo = SwiftCubicSplineExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B85F485569C91548BDA00D /* Pods-SwiftCubicSplineExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCubicSplineExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCubicSplineExampleTests/Pods-SwiftCubicSplineExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46BAC338061BB03CCEFB2B57 /* Pods-SwiftCubicSplineExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCubicSplineExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCubicSplineExampleTests/Pods-SwiftCubicSplineExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		845EE35F41B92F880E957226 /* Pods_SwiftCubicSplineExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCubicSplineExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9824989874BF7DE50CFD6B77 /* Pods_SwiftCubicSplineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCubicSplineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C615DB9ADB3A6D99FCC4DF37 /* Pods-SwiftCubicSplineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCubicSplineExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCubicSplineExample/Pods-SwiftCubicSplineExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EE4159971AB878BC00130962 /* SwiftCubicSplineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCubicSplineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41599B1AB878BC00130962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41599C1AB878BC00130962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE41599E1AB878BC00130962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE4159A11AB878BC00130962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4159A31AB878BC00130962 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE4159A61AB878BC00130962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE4159AC1AB878BC00130962 /* SwiftCubicSplineExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCubicSplineExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4159B11AB878BC00130962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4159B21AB878BC00130962 /* SwiftCubicSplineExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCubicSplineExampleTests.swift; sourceTree = "<group>"; };
+		EE4159C31AB8850F00130962 /* SwiftCubicSpline.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwiftCubicSpline.podspec; path = ../SwiftCubicSpline.podspec; sourceTree = "<group>"; };
+		EE4159C41AB8850F00130962 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE4159C51AB8850F00130962 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE4159C91AB885F200130962 /* SplineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplineView.swift; sourceTree = "<group>"; };
+		EFE7B4F8A246172EA4030204 /* Pods-SwiftCubicSplineExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCubicSplineExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCubicSplineExample/Pods-SwiftCubicSplineExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4159941AB878BC00130962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71A0C21A3FF5C90F4F1901A /* Pods_SwiftCubicSplineExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4159A91AB878BC00130962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ACFF284012803A8A41C319 /* Pods_SwiftCubicSplineExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9EB3AD1EEAE79DB9BA078F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9824989874BF7DE50CFD6B77 /* Pods_SwiftCubicSplineExample.framework */,
+				845EE35F41B92F880E957226 /* Pods_SwiftCubicSplineExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F7099A4711CB751C68B1C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C615DB9ADB3A6D99FCC4DF37 /* Pods-SwiftCubicSplineExample.debug.xcconfig */,
+				EFE7B4F8A246172EA4030204 /* Pods-SwiftCubicSplineExample.release.xcconfig */,
+				16B85F485569C91548BDA00D /* Pods-SwiftCubicSplineExampleTests.debug.xcconfig */,
+				46BAC338061BB03CCEFB2B57 /* Pods-SwiftCubicSplineExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE41598E1AB878BC00130962 = {
+			isa = PBXGroup;
+			children = (
+				EE4159BC1AB87F8300130962 /* Podspec Metadata */,
+				EE4159991AB878BC00130962 /* SwiftCubicSplineExample */,
+				EE4159AF1AB878BC00130962 /* SwiftCubicSplineExampleTests */,
+				EE4159981AB878BC00130962 /* Products */,
+				B0F7099A4711CB751C68B1C8 /* Pods */,
+				2B9EB3AD1EEAE79DB9BA078F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4159981AB878BC00130962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4159971AB878BC00130962 /* SwiftCubicSplineExample.app */,
+				EE4159AC1AB878BC00130962 /* SwiftCubicSplineExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4159991AB878BC00130962 /* SwiftCubicSplineExample */ = {
+			isa = PBXGroup;
+			children = (
+				EE41599C1AB878BC00130962 /* AppDelegate.swift */,
+				EE41599E1AB878BC00130962 /* ViewController.swift */,
+				EE4159C91AB885F200130962 /* SplineView.swift */,
+				EE4159A01AB878BC00130962 /* Main.storyboard */,
+				EE4159A31AB878BC00130962 /* Images.xcassets */,
+				EE4159A51AB878BC00130962 /* LaunchScreen.xib */,
+				EE41599A1AB878BC00130962 /* Supporting Files */,
+			);
+			path = SwiftCubicSplineExample;
+			sourceTree = "<group>";
+		};
+		EE41599A1AB878BC00130962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE41599B1AB878BC00130962 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4159AF1AB878BC00130962 /* SwiftCubicSplineExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4159B21AB878BC00130962 /* SwiftCubicSplineExampleTests.swift */,
+				EE4159B01AB878BC00130962 /* Supporting Files */,
+			);
+			path = SwiftCubicSplineExampleTests;
+			sourceTree = "<group>";
+		};
+		EE4159B01AB878BC00130962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4159B11AB878BC00130962 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4159BC1AB87F8300130962 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				EE4159C31AB8850F00130962 /* SwiftCubicSpline.podspec */,
+				EE4159C41AB8850F00130962 /* README.md */,
+				EE4159C51AB8850F00130962 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4159961AB878BC00130962 /* SwiftCubicSplineExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4159B61AB878BC00130962 /* Build configuration list for PBXNativeTarget "SwiftCubicSplineExample" */;
+			buildPhases = (
+				FAF3B0065AE3C1F3A23CBAFF /* Check Pods Manifest.lock */,
+				EE4159931AB878BC00130962 /* Sources */,
+				EE4159941AB878BC00130962 /* Frameworks */,
+				EE4159951AB878BC00130962 /* Resources */,
+				6FA3722AF5D8A831DFA7B9C0 /* Copy Pods Resources */,
+				84429C69B86B1DC34CEE03D6 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCubicSplineExample;
+			productName = SwiftCubicSplineExample;
+			productReference = EE4159971AB878BC00130962 /* SwiftCubicSplineExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4159AB1AB878BC00130962 /* SwiftCubicSplineExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4159B91AB878BC00130962 /* Build configuration list for PBXNativeTarget "SwiftCubicSplineExampleTests" */;
+			buildPhases = (
+				2093D19000BBC5C9B718B995 /* Check Pods Manifest.lock */,
+				EE4159A81AB878BC00130962 /* Sources */,
+				EE4159A91AB878BC00130962 /* Frameworks */,
+				EE4159AA1AB878BC00130962 /* Resources */,
+				2AAE1012F06B8791153D370F /* Copy Pods Resources */,
+				C989701BB9DAF6B9EBFCCAB1 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4159AE1AB878BC00130962 /* PBXTargetDependency */,
+			);
+			name = SwiftCubicSplineExampleTests;
+			productName = SwiftCubicSplineExampleTests;
+			productReference = EE4159AC1AB878BC00130962 /* SwiftCubicSplineExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE41598F1AB878BC00130962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Effective Code";
+				TargetAttributes = {
+					EE4159961AB878BC00130962 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EE4159AB1AB878BC00130962 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EE4159961AB878BC00130962;
+					};
+				};
+			};
+			buildConfigurationList = EE4159921AB878BC00130962 /* Build configuration list for PBXProject "SwiftCubicSplineExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE41598E1AB878BC00130962;
+			productRefGroup = EE4159981AB878BC00130962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4159961AB878BC00130962 /* SwiftCubicSplineExample */,
+				EE4159AB1AB878BC00130962 /* SwiftCubicSplineExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4159951AB878BC00130962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4159A21AB878BC00130962 /* Main.storyboard in Resources */,
+				EE4159A71AB878BC00130962 /* LaunchScreen.xib in Resources */,
+				EE4159C61AB8850F00130962 /* SwiftCubicSpline.podspec in Resources */,
+				EE4159A41AB878BC00130962 /* Images.xcassets in Resources */,
+				EE4159C81AB8850F00130962 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4159AA1AB878BC00130962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2093D19000BBC5C9B718B995 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AAE1012F06B8791153D370F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCubicSplineExampleTests/Pods-SwiftCubicSplineExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA3722AF5D8A831DFA7B9C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCubicSplineExample/Pods-SwiftCubicSplineExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84429C69B86B1DC34CEE03D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCubicSplineExample/Pods-SwiftCubicSplineExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C989701BB9DAF6B9EBFCCAB1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCubicSplineExampleTests/Pods-SwiftCubicSplineExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF3B0065AE3C1F3A23CBAFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4159931AB878BC00130962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4159C71AB8850F00130962 /* README.md in Sources */,
+				EE4159CA1AB885F200130962 /* SplineView.swift in Sources */,
+				EE41599F1AB878BC00130962 /* ViewController.swift in Sources */,
+				EE41599D1AB878BC00130962 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4159A81AB878BC00130962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4159B31AB878BC00130962 /* SwiftCubicSplineExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4159AE1AB878BC00130962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4159961AB878BC00130962 /* SwiftCubicSplineExample */;
+			targetProxy = EE4159AD1AB878BC00130962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4159A01AB878BC00130962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4159A11AB878BC00130962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4159A51AB878BC00130962 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4159A61AB878BC00130962 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4159B41AB878BC00130962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4159B51AB878BC00130962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4159B71AB878BC00130962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C615DB9ADB3A6D99FCC4DF37 /* Pods-SwiftCubicSplineExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftCubicSplineExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4159B81AB878BC00130962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE7B4F8A246172EA4030204 /* Pods-SwiftCubicSplineExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftCubicSplineExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4159BA1AB878BC00130962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B85F485569C91548BDA00D /* Pods-SwiftCubicSplineExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCubicSplineExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCubicSplineExample.app/SwiftCubicSplineExample";
+			};
+			name = Debug;
+		};
+		EE4159BB1AB878BC00130962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BAC338061BB03CCEFB2B57 /* Pods-SwiftCubicSplineExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCubicSplineExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCubicSplineExample.app/SwiftCubicSplineExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4159921AB878BC00130962 /* Build configuration list for PBXProject "SwiftCubicSplineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4159B41AB878BC00130962 /* Debug */,
+				EE4159B51AB878BC00130962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4159B61AB878BC00130962 /* Build configuration list for PBXNativeTarget "SwiftCubicSplineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4159B71AB878BC00130962 /* Debug */,
+				EE4159B81AB878BC00130962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4159B91AB878BC00130962 /* Build configuration list for PBXNativeTarget "SwiftCubicSplineExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4159BA1AB878BC00130962 /* Debug */,
+				EE4159BB1AB878BC00130962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE41598F1AB878BC00130962 /* Project object */;
+}
