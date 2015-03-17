@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
                        An simple cubic spline engine in Swift
                        DESC
   s.homepage         = "https://github.com/gscalzo/SwiftCubicSpline"
-  s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "giordano scalzo" => "giordano.scalzo@gmail.com" }
   s.source           = { :git => "https://github.com/gscalzo/SwiftCubicSpline.git", :tag => s.version.to_s }
