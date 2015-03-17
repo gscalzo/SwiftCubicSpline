@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SwiftCubicSpline', :exclusive => true do
+  pod "SwiftCubicSpline", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "SwiftCubicSpline", :path => "../"
+
+  
+end
