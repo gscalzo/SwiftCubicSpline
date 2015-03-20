@@ -1,6 +1,5 @@
 # SwiftCubicSpline
 
-[![CI Status](http://img.shields.io/travis/giordano scalzo/SwiftCubicSpline.svg?style=flat)](https://travis-ci.org/giordano scalzo/SwiftCubicSpline)
 [![Version](https://img.shields.io/cocoapods/v/SwiftCubicSpline.svg?style=flat)](http://cocoadocs.org/docsets/SwiftCubicSpline)
 [![License](https://img.shields.io/cocoapods/l/SwiftCubicSpline.svg?style=flat)](http://cocoadocs.org/docsets/SwiftCubicSpline)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftCubicSpline.svg?style=flat)](http://cocoadocs.org/docsets/SwiftCubicSpline)
