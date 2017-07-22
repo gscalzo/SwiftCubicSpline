@@ -11,7 +11,7 @@ import SAMCubicSpline
 public class CubicSpline{
     private let samCubicSpline: SAMCubicSpline
     public init(points: [CGPoint]){
-        samCubicSpline = SAMCubicSpline(points: points.map{ p in NSValue(CGPoint:p)})
+        samCubicSpline = SAMCubicSpline(points: points.map{ p in NSValue(cgPoint:p)})
     }
     
     public func interpolate(x: CGFloat) -> CGFloat {
