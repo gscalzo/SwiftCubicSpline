@@ -12,5 +12,5 @@ language: swift
 install:
   - gem install xcpretty --no-document --quiet
 script:
-  - set -o pipefail && xcodebuild test -workspace Example/SwiftCubicSplineExample.xcworkspace -scheme SwiftCubicSplineExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - set -o pipefail && xcodebuild test -workspace Example/SwiftCubicSpline.xcworkspace -scheme SwiftCubicSpline-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
   - pod lib lint --quick
