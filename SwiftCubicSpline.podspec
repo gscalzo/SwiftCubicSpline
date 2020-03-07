@@ -1,24 +1,28 @@
+#
+# Be sure to run `pod lib lint SwiftCubicSpline.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-  s.name             = "SwiftCubicSpline"
-  s.version          = "0.1.0"
-  s.summary          = "Cubic Spline in Swift."
+  s.name             = 'SwiftCubicSpline'
+  s.version          = '2.0.0'
+  s.summary          = 'Cubic Spline in Swift.'
+
   s.description      = <<-DESC
-                       An simple cubic spline engine in Swift
+  An simple cubic spline engine in Swift
                        DESC
-  s.homepage         = "https://github.com/gscalzo/SwiftCubicSpline"
-  s.license          = 'MIT'
-  s.author           = { "giordano scalzo" => "giordano.scalzo@gmail.com" }
-  s.source           = { :git => "https://github.com/gscalzo/SwiftCubicSpline.git", :tag => s.version.to_s }
+
+  s.homepage         = 'https://github.com/gscalzo/SwiftCubicSpline'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Giordano Scalzo' => 'giordano.scalzo@effectivecode.co.uk' }
+  s.source           = { :git => 'https://github.com/gscalzo/SwiftCubicSpline.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/giordanoscalzo'
 
-  s.platform     = :ios, '8.0'
-  s.requires_arc = true
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SwiftCubicSpline' => ['Pod/Assets/*.png']
-  }
-
+  s.source_files = 'SwiftCubicSpline/Classes/**/*'
   s.frameworks = 'Foundation', 'CoreGraphics'
-  s.dependency 'SAMCubicSpline', '~> 0.1.1'
 end

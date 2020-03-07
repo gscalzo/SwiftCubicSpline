@@ -1,1 +1,0 @@
-../../../SAMCubicSpline/SAMCubicSpline/SAMCubicSpline.h

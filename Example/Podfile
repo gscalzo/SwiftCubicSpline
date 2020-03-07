@@ -1,12 +1,10 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+platform :ios, '10.0'
+use_modular_headers!
 
-target 'SwiftCubicSplineExample', :exclusive => true do
-  pod "SwiftCubicSpline", :path => "../"
-end
+target 'SwiftCubicSpline_Example' do
+  pod 'SwiftCubicSpline', :path => '../'
 
-target 'SwiftCubicSplineExampleTests', :exclusive => true do
-  pod "SwiftCubicSpline", :path => "../"
-
-  
+  target 'SwiftCubicSpline_Tests' do
+    inherit! :search_paths
+  end
 end

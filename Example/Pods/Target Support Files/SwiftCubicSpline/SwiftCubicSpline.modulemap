@@ -1,0 +1,6 @@
+module SwiftCubicSpline {
+  umbrella header "SwiftCubicSpline-umbrella.h"
+
+  export *
+  module * { export * }
+}

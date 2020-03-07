@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_SwiftCubicSplineExampleTests_SAMCubicSpline : NSObject
-@end
-@implementation PodsDummy_Pods_SwiftCubicSplineExampleTests_SAMCubicSpline
-@end

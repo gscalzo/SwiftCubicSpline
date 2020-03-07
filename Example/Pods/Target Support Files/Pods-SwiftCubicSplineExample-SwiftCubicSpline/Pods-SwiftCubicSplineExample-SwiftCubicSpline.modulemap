@@ -1,6 +1,0 @@
-framework module SwiftCubicSpline {
-  umbrella header "Pods-SwiftCubicSplineExample-SwiftCubicSpline-umbrella.h"
-
-  export *
-  module * { export * }
-}

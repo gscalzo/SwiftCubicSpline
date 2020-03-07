@@ -1,35 +1,27 @@
 {
   "name": "SwiftCubicSpline",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "summary": "Cubic Spline in Swift.",
-  "description": "                       An simple cubic spline engine in Swift\n",
+  "description": "An simple cubic spline engine in Swift",
   "homepage": "https://github.com/gscalzo/SwiftCubicSpline",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "giordano scalzo": "giordano.scalzo@gmail.com"
+    "Giordano Scalzo": "giordano.scalzo@effectivecode.co.uk"
   },
   "source": {
     "git": "https://github.com/gscalzo/SwiftCubicSpline.git",
-    "tag": "0.1.0"
+    "tag": "2.0.0"
   },
   "social_media_url": "https://twitter.com/giordanoscalzo",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "SwiftCubicSpline": [
-      "Pod/Assets/*.png"
-    ]
-  },
+  "source_files": "SwiftCubicSpline/Classes/**/*",
   "frameworks": [
     "Foundation",
     "CoreGraphics"
-  ],
-  "dependencies": {
-    "SAMCubicSpline": [
-      "~> 0.1.1"
-    ]
-  }
+  ]
 }

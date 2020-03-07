@@ -1,0 +1,6 @@
+framework module Pods_SwiftCubicSpline_Tests {
+  umbrella header "Pods-SwiftCubicSpline_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

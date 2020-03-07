@@ -1,0 +1,6 @@
+module Pods_SwiftCubicSpline_Example {
+  umbrella header "Pods-SwiftCubicSpline_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
