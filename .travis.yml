@@ -10,7 +10,7 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 install:
-  - gem install xcpretty --no-ri --no-document --quiet
+  - gem install xcpretty --no-document --quiet
 script:
   - set -o pipefail && xcodebuild test -workspace Example/SwiftCubicSplineExample.xcworkspace -scheme SwiftCubicSplineExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
   - pod lib lint --quick
