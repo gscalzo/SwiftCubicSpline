@@ -6,15 +6,31 @@
 //
 //
 
-public class CubicSpline{
+#if os(Linux)
+import Glibc
+#else
+import Darwin.C
+#endif
+
+public struct Point {
+    public let x: Double
+    public let y: Double
     
+    public init(x: Double, y: Double) {
+        self.x = x
+        self.y = y
+    }
+}
+
+public class CubicSpline{
+
     private var x: [Double]
     private var a: [Double]
     private var b: [Double]
     private var c: [Double]
     private var d: [Double]
     
-    public convenience init(points: [CGPoint]){
+    public convenience init(points: [Point]){
         var x = [Double]()
         var y = [Double]()
         

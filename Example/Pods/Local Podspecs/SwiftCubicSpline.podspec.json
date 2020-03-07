@@ -19,9 +19,6 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SwiftCubicSpline/Classes/**/*",
-  "frameworks": [
-    "Foundation",
-    "CoreGraphics"
-  ]
+  "source_files": "Sources/SwiftCubicSpline/**/*",
+  "frameworks": "Foundation"
 }

@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SwiftCubicSpline/Classes/**/*'
-  s.frameworks = 'Foundation', 'CoreGraphics'
+  s.source_files = 'Sources/SwiftCubicSpline/**/*'
+  s.frameworks = 'Foundation'
 end

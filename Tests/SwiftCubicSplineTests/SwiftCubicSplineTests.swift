@@ -1,7 +1,11 @@
 import XCTest
 @testable import SwiftCubicSpline
 
-class Tests: XCTestCase {
+final class SwiftCubicSplineTests: XCTestCase {
+    static var allTests = [
+        ("testPointsAreInterpolated", testPointsAreInterpolated),
+    ]
+
     func testPointsAreInterpolated() {
         let spline = CubicSpline(points: [
             Point(x: 0.0, y: 0.5),

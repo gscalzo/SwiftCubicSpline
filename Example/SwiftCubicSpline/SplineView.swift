@@ -19,14 +19,14 @@ class SplineView: UIView {
         context.setStrokeColor(UIColor.black.cgColor);
         
         let spline = CubicSpline(points: [
-            CGPoint(x: 0.0, y: 0.5),
-            CGPoint(x: 0.1, y: 0.5),
-            CGPoint(x: 0.2, y: 0.7),
-            CGPoint(x: 0.4, y: 0.3),
-            CGPoint(x: 0.6, y: 0.6),
-            CGPoint(x: 0.8, y: 0.4),
-            CGPoint(x: 0.9, y: 0.5),
-            CGPoint(x: 1.0, y: 0.5)
+            Point(x: 0.0, y: 0.5),
+            Point(x: 0.1, y: 0.5),
+            Point(x: 0.2, y: 0.7),
+            Point(x: 0.4, y: 0.3),
+            Point(x: 0.6, y: 0.6),
+            Point(x: 0.8, y: 0.4),
+            Point(x: 0.9, y: 0.5),
+            Point(x: 1.0, y: 0.5)
             ])
 
         let graphSize = self.bounds.size
