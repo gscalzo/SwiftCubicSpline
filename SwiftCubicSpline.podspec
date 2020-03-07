@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'SwiftCubicSpline'
   s.version          = '2.0.0'
   s.summary          = 'Cubic Spline in Swift.'
+  s.swift_versions   = '5.0'
 
   s.description      = <<-DESC
   An simple cubic spline engine in Swift
